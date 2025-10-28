@@ -121,5 +121,6 @@ merge conflicts across multiple branches using proper Git workflows.
 - **Issue:** Different environment variable naming conventions.
 - **Resolution:** Standardized names to consistent uppercase snake_case.
 - **Strategy:** Normalize naming across environments.
+- **Commit:** (No dedicated commit; changes merged as part of merge resolution)
 
 
