@@ -8,8 +8,8 @@ A comprehensive CI/CD configuration management tool with both **enterprise stabi
 - **Version**: 3.0.0-experimental (includes 1.0.0 Production & 2.0.0-beta Development)
 - **Environments**: Production, Development, and Testing
 - **Maintainer**: DevOps Innovation Team
-- **Student**: [YOUR NAME]
-- **Student ID**: [YOUR ID]
+- **Student**: Likhitha Palisetti
+- **Student ID**: 23A91A05H8
 
 ---
 
