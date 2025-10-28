@@ -3,7 +3,8 @@
 ## Student Information
 - Name: Likhitha Palisetti
 - Student ID: 23A91A05H8
-- Repository: https://github.com/23A91A05H8/git-solved-23A91A05H8.git
+- Repository: https://github.com/23A91A05H8/git-mastery-challenge-template.git
+
 - Date Started: 27-10-2025
 - Date Completed: 28-10-2025
 
