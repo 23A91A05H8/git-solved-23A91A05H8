@@ -83,47 +83,43 @@ merge conflicts across multiple branches using proper Git workflows.
 
 ### Merge 2: main + conflict-simulator (6 files)
 
-[Document the second set of conflicts similarly]
+### Conflict Set 2 (Merge: main ← conflict-simulator)
 
-## Most Challenging Parts
+### Conflict #1 (main ← conflict-simulator)
+**File:** conflict.txt  
+**Issue:** Both branches added different content in the same lines.  
+**Resolution:** Combined both changes to preserve details.  
+**Strategy:** Mixed resolution (took parts from both sides).  
+**Commit:** 0f1ad03  
 
-1. **Understanding Conflict Markers**: Initially confused by `<<<<<<<`, `=======`, `>>>>>>>` symbols. Learned that HEAD is current branch and the other side is incoming changes.
 
-2. **Deciding What to Keep**: Hardest part was choosing between conflicting code. Learned to read both versions completely before deciding.
+#### Conflict #2: README.md
+- **Issue:** Different descriptions of the project purpose.
+- **Resolution:** Combined both descriptions to make the README more complete.
+- **Strategy:** Mixed resolution (kept content from both branches).
+- **Commit:** 1a27a60
 
-3. **Complex Logic Conflicts**: deploy.sh had completely different logic. Had to understand both approaches before combining.
+#### Conflict #3: docs/architecture.md
+- **Issue:** Different architectural diagrams and environment descriptions.
+- **Resolution:** Created a unified architecture explanation referencing both parts.
+- **Strategy:** Merge + reorganize content.
+- **Commit:** 479c163
 
-4. **Testing After Resolution**: Making sure resolved code actually worked was crucial.
+#### Conflict #4: scripts/deploy.sh
+- **Issue:** Two different deployment methods (manual vs automated).
+- **Resolution:** Kept automated method but added manual mode as fallback.
+- **Strategy:** Integrated both approaches for flexibility.
+- **Commit:** 479c163
 
-## Key Learnings
+#### Conflict #5: package.json
+- **Issue:** Version numbers and dependencies conflict between branches.
+- **Resolution:** Updated to latest version and included all necessary dependencies.
+- **Strategy:** Chose newer dependency set.
+- **Commit:** 02011a5
 
-### Technical Skills
-- Mastered conflict resolution process
-- Understood merge conflict markers
-- Learned to use git diff effectively
-- Practiced all major Git commands
+#### Conflict #6: .env.example
+- **Issue:** Different environment variable naming conventions.
+- **Resolution:** Standardized names to consistent uppercase snake_case.
+- **Strategy:** Normalize naming across environments.
 
-### Best Practices
-- Always read both sides of conflict before resolving
-- Test resolved code before committing
-- Write detailed merge commit messages
-- Use git status frequently
-- Commit atomically
 
-### Git Workflow Insights
-- Conflicts are normal, not errors
-- Take time to understand both changes
-- When in doubt, ask for clarification
-- Document your resolution strategy
-- Keep calm and read carefully
-
-## Reflection
-This challenge taught me that merge conflicts aren't scary - they're 
-just Git asking "which version do you want?". The key is understanding 
-what each side is trying to do before combining them. I now feel 
-confident handling conflicts in real projects.
-
-The hands-on practice with all Git commands (especially rebase and 
-cherry-pick) was invaluable. I understand the difference between merge 
-and rebase, and when to use each. Most importantly, I learned that 
-git reflog is a lifesaver!
