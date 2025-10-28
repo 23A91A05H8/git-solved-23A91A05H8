@@ -1,3 +1,7 @@
+# CHANGELOG
+
+### Recent Updates
+
 - cbe0323: Add documentation for Git journey (23A91A05H8, 2 minutes ago)
 - 55a83dd: Add documentation for git journey (23A91A05H8, 2 hours ago)
 - 4218417: docs: Update README (23A91A05H8, 2 hours ago)
@@ -11,3 +15,6 @@
 - 0312c6f: updating main (Hanu Gupta, 5 days ago)
 - fadfd24: Revise README for DevOps Simulator project (Hanu Gupta, 5 days ago)
 - ae630eb: Initial commit (Hanu Gupta, 5 days ago)
+
+### Conflict Notes
+- log update (merged manually from `dev` branch)
